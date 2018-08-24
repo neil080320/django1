@@ -18,5 +18,9 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+<<<<<<< HEAD
     url('^', include('booktest.urls')),
+=======
+    url(r'^user/', include('user.url')),
+>>>>>>> zdb
 ]
